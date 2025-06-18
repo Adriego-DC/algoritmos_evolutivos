@@ -2,7 +2,7 @@ import random
 import numpy as np
 import pandas as pd
 
-df = pd.read_csv('notas_1u.csv')
+df = pd.read_csv('algoritmos_evolutivos-s8_lab/notas_1u.csv')
 alumnos = df['Alumno'].tolist()
 notas = df['Nota'].tolist()
 
