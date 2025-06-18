@@ -1,0 +1,11 @@
+Análisis Comparativo de Representaciones - Actividad 1
+
+Se ejecutaron tres representaciones genéticas para optimizar la distribución de 39 alumnos en tres exámenes.
+
+1. La representación Binaria mostró un equilibrio deficiente entre los grupos, con desviación estándar alta (0.9144) y sin mejoras en fitness (-1000.0000) a lo largo de todas las generaciones.
+
+2. Las representaciones Permutacional y Real lograron un equilibrio excelente con desviación estándar mínima (0.0363) y asignación exacta de alumnos (13 por grupo). La Permutacional además mostró rápida convergencia alcanzando su mejor fitness en la generación 10, mientras que la Real no mejoró tras la generación inicial.
+
+3. En términos de rapidez de convergencia, la Permutacional fue la mejor opción, seguida por la Real (sin mejora) y la Binaria (sin mejora).
+
+4. Conclusión: La representación Permutacional es la más eficiente en equilibrio y velocidad de convergencia para este problema.
